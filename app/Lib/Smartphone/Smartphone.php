@@ -23,9 +23,11 @@ class Smartphone
 
     public function get()
     {
-        //$_this = new self;
-        //return $_this->name;
         $smartphone = $this->name . ', ' . $this->cpu->get() . $this->display->get() . $this->camera->get() . $this->battery->get();
         return $smartphone;
     }
 }
+
+
+//$_this = new self;
+//return $_this->name;
